@@ -2,7 +2,7 @@
     "name": "tnoodle-ui",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://localhost:2014/scramble",
+    "homepage": "http://thecaffeinaddict.github.io/tnoodle-webclient/",
     "dependencies": {
         "@cubing/icons": "^1.1.2",
         "@reduxjs/toolkit": "^2.0.1",
