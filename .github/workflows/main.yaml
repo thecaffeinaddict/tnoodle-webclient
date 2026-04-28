@@ -50,7 +50,6 @@ jobs:
         run: npm ci
       - name: Build
         run: |
-         git remote add origin https://github.com/thecaffeinaddict/tnoodle-webclient.git
          npm run deploy -- -m "Deploy React app to GitHub Pages"
         env:
           BASE_PATH: /Tnoodle-ui/
