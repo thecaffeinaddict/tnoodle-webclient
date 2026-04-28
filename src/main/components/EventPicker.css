@@ -1,0 +1,19 @@
+.firstColumn {
+    width: 5%;
+}
+
+.secondColumn {
+    width: 25%;
+}
+
+.lastTwoColumns {
+    width: 35%;
+}
+
+.cubing-icon {
+    font-size: 6em;
+}
+
+.fit-content .tooltip-inner {
+    max-width: fit-content;
+}
