@@ -42,13 +42,16 @@ jobs:
         run: |
             npm update
             npm install
+            npm install gh-pages --save-dev
             npm fund
             npm audit fix
         continue-on-error: true
       - name: Install dependencies
         run: npm ci
       - name: Build
-        run: npm run build
+        run: |
+         git remote add origin https://github.com/thecaffeinaddict/tnoodle-webclient.git
+         npm run deploy -- -m "Deploy React app to GitHub Pages"
         env:
           BASE_PATH: /Tnoodle-ui/
       - name: Setup Pages
